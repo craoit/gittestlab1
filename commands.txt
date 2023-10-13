@@ -1,2 +1,4 @@
 this is to clone the github repository into local
 git clone <url>
+Adding the following lines to test if we can pull, fetch or push the data or file thas has been modified . This is the to test how to sync the github repository on local 
+
