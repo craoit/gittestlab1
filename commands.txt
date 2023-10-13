@@ -2,3 +2,15 @@ this is to clone the github repository into local
 git clone <url>
 Adding the following lines to test if we can pull, fetch or push the data or file thas has been modified . This is the to test how to sync the github repository on local 
 
+
+adding new commands for push from local to github repo
+step:
+a. first of all you n eed permissions to add something on the github repo
+b. you cannot get creds of the github user not ethical way to get authenticated
+c. got to github > settings under profile > tokens classic > generate token and copy
+d. now go to the local folder
+e. run 1st command i.e git remote set-url --add origin https://<token>@<url that you got from running git remote -v>
+f. 2nd command i.e git push origin main
+
+Now your data is synced from local to the github repo
+
