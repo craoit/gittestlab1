@@ -1,0 +1,2 @@
+this is to clone the github repository into local
+git clone <url>
